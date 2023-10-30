@@ -6,12 +6,15 @@
 //
 
 import SwiftUI
+import ComposableArchitecture
 
 @main
 struct PresidioCompositeArchitectureApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppView(store: Store(initialState: AppFeature.State(selectedTab: .home), reducer: {
+                AppFeature()
+            }))
         }
     }
 }

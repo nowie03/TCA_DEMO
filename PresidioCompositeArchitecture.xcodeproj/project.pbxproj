@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD0AF2FD2AEE65EF007A8CCA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0AF2FC2AEE65EF007A8CCA /* User.swift */; };
+		AD0AF2FF2AEE6956007A8CCA /* ProfileFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0AF2FE2AEE6956007A8CCA /* ProfileFeature.swift */; };
+		AD0AF3012AEE6AF9007A8CCA /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0AF3002AEE6AF9007A8CCA /* ProfileView.swift */; };
+		AD1118C52AEA5F6B006B70AF /* AppFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1118C42AEA5F6B006B70AF /* AppFeature.swift */; };
+		AD1118C72AEA6018006B70AF /* FavouriteFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1118C62AEA6018006B70AF /* FavouriteFeature.swift */; };
+		AD1118CA2AEA61DA006B70AF /* FavouritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1118C92AEA61DA006B70AF /* FavouritesView.swift */; };
+		AD64033F2AEF71170047FDCD /* PathReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD64033E2AEF71170047FDCD /* PathReducer.swift */; };
+		AD6403422AEFA6060047FDCD /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6403412AEFA6060047FDCD /* ApiClient.swift */; };
 		AD968EB42AE8D67F001C875B /* PresidioCompositeArchitectureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD968EB32AE8D67F001C875B /* PresidioCompositeArchitectureApp.swift */; };
 		AD968EB62AE8D67F001C875B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD968EB52AE8D67F001C875B /* ContentView.swift */; };
 		AD968EB82AE8D680001C875B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD968EB72AE8D680001C875B /* Assets.xcassets */; };
@@ -14,6 +22,19 @@
 		AD968EC52AE8D680001C875B /* PresidioCompositeArchitectureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD968EC42AE8D680001C875B /* PresidioCompositeArchitectureTests.swift */; };
 		AD968ECF2AE8D680001C875B /* PresidioCompositeArchitectureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD968ECE2AE8D680001C875B /* PresidioCompositeArchitectureUITests.swift */; };
 		AD968ED12AE8D680001C875B /* PresidioCompositeArchitectureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD968ED02AE8D680001C875B /* PresidioCompositeArchitectureUITestsLaunchTests.swift */; };
+		AD968EDF2AE8D72D001C875B /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = AD968EDE2AE8D72D001C875B /* ComposableArchitecture */; };
+		AD968EE22AE8D8EB001C875B /* CounterFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD968EE12AE8D8EB001C875B /* CounterFeature.swift */; };
+		AD968EE42AE8ECB7001C875B /* ProductsFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD968EE32AE8ECB7001C875B /* ProductsFeature.swift */; };
+		AD968EE72AE8ED01001C875B /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD968EE62AE8ED01001C875B /* Product.swift */; };
+		AD968EE92AE8EE79001C875B /* ProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD968EE82AE8EE79001C875B /* ProductsView.swift */; };
+		AD968EEB2AE907E2001C875B /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD968EEA2AE907E2001C875B /* AppView.swift */; };
+		AD968EED2AE909FA001C875B /* LetsGoDutchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD968EEC2AE909FA001C875B /* LetsGoDutchView.swift */; };
+		AD968EEF2AE90C5C001C875B /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD968EEE2AE90C5C001C875B /* ProductView.swift */; };
+		AD968EF12AE90C69001C875B /* ProductFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD968EF02AE90C69001C875B /* ProductFeature.swift */; };
+		ADFE5DDC2AEDB0090064FDA5 /* CategoryFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFE5DDB2AEDB0090064FDA5 /* CategoryFeature.swift */; };
+		ADFE5DDE2AEDB13F0064FDA5 /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFE5DDD2AEDB13F0064FDA5 /* CategoriesView.swift */; };
+		ADFE5DE02AEDB6CA0064FDA5 /* HomeFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFE5DDF2AEDB6CA0064FDA5 /* HomeFeature.swift */; };
+		ADFE5DE22AEDB7A90064FDA5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADFE5DE12AEDB7A90064FDA5 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +55,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD0AF2FC2AEE65EF007A8CCA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		AD0AF2FE2AEE6956007A8CCA /* ProfileFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileFeature.swift; sourceTree = "<group>"; };
+		AD0AF3002AEE6AF9007A8CCA /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		AD1118C42AEA5F6B006B70AF /* AppFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFeature.swift; sourceTree = "<group>"; };
+		AD1118C62AEA6018006B70AF /* FavouriteFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteFeature.swift; sourceTree = "<group>"; };
+		AD1118C92AEA61DA006B70AF /* FavouritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesView.swift; sourceTree = "<group>"; };
+		AD64033E2AEF71170047FDCD /* PathReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathReducer.swift; sourceTree = "<group>"; };
+		AD6403412AEFA6060047FDCD /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
 		AD968EB02AE8D67F001C875B /* PresidioCompositeArchitecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PresidioCompositeArchitecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD968EB32AE8D67F001C875B /* PresidioCompositeArchitectureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresidioCompositeArchitectureApp.swift; sourceTree = "<group>"; };
 		AD968EB52AE8D67F001C875B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +73,18 @@
 		AD968ECA2AE8D680001C875B /* PresidioCompositeArchitectureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PresidioCompositeArchitectureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD968ECE2AE8D680001C875B /* PresidioCompositeArchitectureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresidioCompositeArchitectureUITests.swift; sourceTree = "<group>"; };
 		AD968ED02AE8D680001C875B /* PresidioCompositeArchitectureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresidioCompositeArchitectureUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AD968EE12AE8D8EB001C875B /* CounterFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterFeature.swift; sourceTree = "<group>"; };
+		AD968EE32AE8ECB7001C875B /* ProductsFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsFeature.swift; sourceTree = "<group>"; };
+		AD968EE62AE8ED01001C875B /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		AD968EE82AE8EE79001C875B /* ProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsView.swift; sourceTree = "<group>"; };
+		AD968EEA2AE907E2001C875B /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		AD968EEC2AE909FA001C875B /* LetsGoDutchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsGoDutchView.swift; sourceTree = "<group>"; };
+		AD968EEE2AE90C5C001C875B /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
+		AD968EF02AE90C69001C875B /* ProductFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductFeature.swift; sourceTree = "<group>"; };
+		ADFE5DDB2AEDB0090064FDA5 /* CategoryFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryFeature.swift; sourceTree = "<group>"; };
+		ADFE5DDD2AEDB13F0064FDA5 /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		ADFE5DDF2AEDB6CA0064FDA5 /* HomeFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeature.swift; sourceTree = "<group>"; };
+		ADFE5DE12AEDB7A90064FDA5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD968EDF2AE8D72D001C875B /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +113,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD1118C82AEA61AA006B70AF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD968EEC2AE909FA001C875B /* LetsGoDutchView.swift */,
+				AD968EEE2AE90C5C001C875B /* ProductView.swift */,
+				AD968EE82AE8EE79001C875B /* ProductsView.swift */,
+				AD968EEA2AE907E2001C875B /* AppView.swift */,
+				AD968EB52AE8D67F001C875B /* ContentView.swift */,
+				AD1118C92AEA61DA006B70AF /* FavouritesView.swift */,
+				ADFE5DDD2AEDB13F0064FDA5 /* CategoriesView.swift */,
+				ADFE5DE12AEDB7A90064FDA5 /* HomeView.swift */,
+				AD0AF3002AEE6AF9007A8CCA /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AD6403402AEFA5EA0047FDCD /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				AD6403412AEFA6060047FDCD /* ApiClient.swift */,
+			);
+			path = Dependencies;
+			sourceTree = "<group>";
+		};
 		AD968EA72AE8D67F001C875B = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +160,11 @@
 		AD968EB22AE8D67F001C875B /* PresidioCompositeArchitecture */ = {
 			isa = PBXGroup;
 			children = (
+				AD6403402AEFA5EA0047FDCD /* Dependencies */,
+				AD1118C82AEA61AA006B70AF /* Views */,
+				AD968EE52AE8ECF5001C875B /* Models */,
+				AD968EE02AE8D8D3001C875B /* Reducers */,
 				AD968EB32AE8D67F001C875B /* PresidioCompositeArchitectureApp.swift */,
-				AD968EB52AE8D67F001C875B /* ContentView.swift */,
 				AD968EB72AE8D680001C875B /* Assets.xcassets */,
 				AD968EB92AE8D680001C875B /* Preview Content */,
 			);
@@ -127,6 +196,31 @@
 			path = PresidioCompositeArchitectureUITests;
 			sourceTree = "<group>";
 		};
+		AD968EE02AE8D8D3001C875B /* Reducers */ = {
+			isa = PBXGroup;
+			children = (
+				AD968EE12AE8D8EB001C875B /* CounterFeature.swift */,
+				AD968EE32AE8ECB7001C875B /* ProductsFeature.swift */,
+				AD968EF02AE90C69001C875B /* ProductFeature.swift */,
+				AD1118C42AEA5F6B006B70AF /* AppFeature.swift */,
+				AD1118C62AEA6018006B70AF /* FavouriteFeature.swift */,
+				ADFE5DDB2AEDB0090064FDA5 /* CategoryFeature.swift */,
+				ADFE5DDF2AEDB6CA0064FDA5 /* HomeFeature.swift */,
+				AD0AF2FE2AEE6956007A8CCA /* ProfileFeature.swift */,
+				AD64033E2AEF71170047FDCD /* PathReducer.swift */,
+			);
+			path = Reducers;
+			sourceTree = "<group>";
+		};
+		AD968EE52AE8ECF5001C875B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AD968EE62AE8ED01001C875B /* Product.swift */,
+				AD0AF2FC2AEE65EF007A8CCA /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +237,9 @@
 			dependencies = (
 			);
 			name = PresidioCompositeArchitecture;
+			packageProductDependencies = (
+				AD968EDE2AE8D72D001C875B /* ComposableArchitecture */,
+			);
 			productName = PresidioCompositeArchitecture;
 			productReference = AD968EB02AE8D67F001C875B /* PresidioCompositeArchitecture.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +312,9 @@
 				Base,
 			);
 			mainGroup = AD968EA72AE8D67F001C875B;
+			packageReferences = (
+				AD968EDD2AE8D72D001C875B /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = AD968EB12AE8D67F001C875B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +357,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD968EF12AE90C69001C875B /* ProductFeature.swift in Sources */,
+				ADFE5DE02AEDB6CA0064FDA5 /* HomeFeature.swift in Sources */,
+				AD968EE42AE8ECB7001C875B /* ProductsFeature.swift in Sources */,
+				AD1118CA2AEA61DA006B70AF /* FavouritesView.swift in Sources */,
+				ADFE5DDE2AEDB13F0064FDA5 /* CategoriesView.swift in Sources */,
+				ADFE5DE22AEDB7A90064FDA5 /* HomeView.swift in Sources */,
+				AD0AF2FF2AEE6956007A8CCA /* ProfileFeature.swift in Sources */,
+				AD1118C52AEA5F6B006B70AF /* AppFeature.swift in Sources */,
+				AD968EEF2AE90C5C001C875B /* ProductView.swift in Sources */,
+				AD968EED2AE909FA001C875B /* LetsGoDutchView.swift in Sources */,
+				ADFE5DDC2AEDB0090064FDA5 /* CategoryFeature.swift in Sources */,
+				AD6403422AEFA6060047FDCD /* ApiClient.swift in Sources */,
+				AD1118C72AEA6018006B70AF /* FavouriteFeature.swift in Sources */,
+				AD0AF3012AEE6AF9007A8CCA /* ProfileView.swift in Sources */,
+				AD968EE22AE8D8EB001C875B /* CounterFeature.swift in Sources */,
+				AD968EE92AE8EE79001C875B /* ProductsView.swift in Sources */,
+				AD968EE72AE8ED01001C875B /* Product.swift in Sources */,
+				AD0AF2FD2AEE65EF007A8CCA /* User.swift in Sources */,
+				AD968EEB2AE907E2001C875B /* AppView.swift in Sources */,
 				AD968EB62AE8D67F001C875B /* ContentView.swift in Sources */,
 				AD968EB42AE8D67F001C875B /* PresidioCompositeArchitectureApp.swift in Sources */,
+				AD64033F2AEF71170047FDCD /* PathReducer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +708,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AD968EDD2AE8D72D001C875B /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AD968EDE2AE8D72D001C875B /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AD968EDD2AE8D72D001C875B /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AD968EA82AE8D67F001C875B /* Project object */;
 }
